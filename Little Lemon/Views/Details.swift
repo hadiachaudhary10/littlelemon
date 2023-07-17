@@ -42,6 +42,7 @@ struct Details: View {
         Button("Add to Cart") {
          
         }
+        .font(.paragraph)
         .foregroundColor(Color.highlight2)
         .padding(.all)
         .background(Color.primary2)

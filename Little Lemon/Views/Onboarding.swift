@@ -23,14 +23,19 @@ struct Onboarding: View {
   @FocusState private var lastNameFieldIsFocused: Bool
   @FocusState private var emailFieldIsFocused: Bool
   
+  @StateObject private var keyboardHandler = KeyboardHandler()
+  
   var body: some View {
     NavigationStack {
       VStack {
-        Spacer()
-        Image("App Icon")
+        Image("Logo")
           .resizable()
           .scaledToFit()
-          .frame(width: UIScreen.main.bounds.width/4)
+          .frame(width: 200, height: 40)
+          .padding(.horizontal)
+        if keyboardHandler.keyboardHeight == 0.0 {
+          HeroSection(showSearchField: false)
+        }
         Spacer()
         TextField("First Name", text: $firstName)
           .disableAutocorrection(true)
