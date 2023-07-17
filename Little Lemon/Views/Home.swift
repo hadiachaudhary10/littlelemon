@@ -18,7 +18,7 @@ struct Home: View {
           Label("Menu", systemImage: "list.dash")
         }
         .environment(\.managedObjectContext, persistenceController.container.viewContext)
-      
+        .clipped()
       UserProfile()
         .tabItem {
           Label("Profile", systemImage: "square.and.pencil")

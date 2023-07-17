@@ -11,7 +11,6 @@
 		D773C7212A59D30000EABF61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D773C7202A59D30000EABF61 /* Assets.xcassets */; };
 		D773C7242A59D30000EABF61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D773C7232A59D30000EABF61 /* Preview Assets.xcassets */; };
 		D773C72B2A5D3B7E00EABF61 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D773C72A2A5D3B7E00EABF61 /* Onboarding.swift */; };
-		D773C72E2A5D3E4800EABF61 /* EmailValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D773C72D2A5D3E4800EABF61 /* EmailValidation.swift */; };
 		D773C7302A5D424300EABF61 /* Color + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D773C72F2A5D424300EABF61 /* Color + Extensions.swift */; };
 		D773C7322A5D539700EABF61 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D773C7312A5D539700EABF61 /* Home.swift */; };
 		D773C7342A5D53D200EABF61 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D773C7332A5D53D200EABF61 /* Menu.swift */; };
@@ -31,6 +30,11 @@
 		D78D9D6B2A5FE74400B64714 /* MarkaziText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D78D9D6A2A5FE74400B64714 /* MarkaziText-Bold.ttf */; };
 		D78D9D6D2A5FEB3F00B64714 /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78D9D6C2A5FEB3F00B64714 /* ProductItem.swift */; };
 		D78D9D6F2A5FF91400B64714 /* DishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78D9D6E2A5FF91400B64714 /* DishViewModel.swift */; };
+		D7E0369B2A615161002BC009 /* KeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0369A2A615161002BC009 /* KeyboardHandler.swift */; };
+		D7E0369D2A6154C0002BC009 /* HeroSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0369C2A6154C0002BC009 /* HeroSection.swift */; };
+		D7E0369F2A615543002BC009 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0369E2A615543002BC009 /* Utils.swift */; };
+		D7E036A12A61562F002BC009 /* MenuBreakdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E036A02A61562F002BC009 /* MenuBreakdown.swift */; };
+		D7E036A32A6156A6002BC009 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E036A22A6156A6002BC009 /* Header.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +43,6 @@
 		D773C7202A59D30000EABF61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D773C7232A59D30000EABF61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D773C72A2A5D3B7E00EABF61 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
-		D773C72D2A5D3E4800EABF61 /* EmailValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidation.swift; sourceTree = "<group>"; };
 		D773C72F2A5D424300EABF61 /* Color + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Extensions.swift"; sourceTree = "<group>"; };
 		D773C7312A5D539700EABF61 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		D773C7332A5D53D200EABF61 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
@@ -60,6 +63,11 @@
 		D78D9D6A2A5FE74400B64714 /* MarkaziText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Bold.ttf"; sourceTree = "<group>"; };
 		D78D9D6C2A5FEB3F00B64714 /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
 		D78D9D6E2A5FF91400B64714 /* DishViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishViewModel.swift; sourceTree = "<group>"; };
+		D7E0369A2A615161002BC009 /* KeyboardHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHandler.swift; sourceTree = "<group>"; };
+		D7E0369C2A6154C0002BC009 /* HeroSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroSection.swift; sourceTree = "<group>"; };
+		D7E0369E2A615543002BC009 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		D7E036A02A61562F002BC009 /* MenuBreakdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBreakdown.swift; sourceTree = "<group>"; };
+		D7E036A22A6156A6002BC009 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +84,6 @@
 		D773C7102A59D2FE00EABF61 = {
 			isa = PBXGroup;
 			children = (
-				D78D9D642A5FE13900B64714 /* Dish+CoreDataClass.swift */,
-				D78D9D652A5FE13900B64714 /* Dish+CoreDataProperties.swift */,
 				D773C71B2A59D2FE00EABF61 /* Little Lemon */,
 				D773C71A2A59D2FE00EABF61 /* Products */,
 			);
@@ -96,21 +102,13 @@
 			children = (
 				D78D9D552A5ED1A500B64714 /* Little-Lemon-Info.plist */,
 				D78D9D522A5EC91A00B64714 /* Fonts */,
+				D7E036A42A6156D1002BC009 /* CoreDataUtils */,
 				D773C72C2A5D3E2600EABF61 /* Helpers */,
 				D773C71C2A59D2FE00EABF61 /* Little_LemonApp.swift */,
-				D773C72A2A5D3B7E00EABF61 /* Onboarding.swift */,
-				D773C7352A5D667B00EABF61 /* UserProfile.swift */,
-				D78D9D6C2A5FEB3F00B64714 /* ProductItem.swift */,
-				D773C7312A5D539700EABF61 /* Home.swift */,
-				D773C7332A5D53D200EABF61 /* Menu.swift */,
-				D78D9D622A5EE2B300B64714 /* Details.swift */,
+				D7E036A52A61571C002BC009 /* Views */,
+				D7E036A62A615755002BC009 /* ViewModel */,
+				D7E036A72A61577F002BC009 /* Model */,
 				D773C7202A59D30000EABF61 /* Assets.xcassets */,
-				D773C7372A5D7F5600EABF61 /* FetchedObjects.swift */,
-				D773C73B2A5D7FBB00EABF61 /* MenuList.swift */,
-				D773C73D2A5D7FC700EABF61 /* MenuItem.swift */,
-				D773C7382A5D7F5600EABF61 /* Persistence.swift */,
-				D78D9D6E2A5FF91400B64714 /* DishViewModel.swift */,
-				D773C73F2A5D864500EABF61 /* ExampleDatabase.xcdatamodeld */,
 				D773C7222A59D30000EABF61 /* Preview Content */,
 			);
 			path = "Little Lemon";
@@ -127,9 +125,10 @@
 		D773C72C2A5D3E2600EABF61 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				D773C72D2A5D3E4800EABF61 /* EmailValidation.swift */,
+				D7E0369E2A615543002BC009 /* Utils.swift */,
 				D773C72F2A5D424300EABF61 /* Color + Extensions.swift */,
 				D78D9D502A5EC87200B64714 /* Font + Extensions.swift */,
+				D7E0369A2A615161002BC009 /* KeyboardHandler.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -143,6 +142,51 @@
 				D78D9D682A5FE73600B64714 /* Karla-Bold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D7E036A42A6156D1002BC009 /* CoreDataUtils */ = {
+			isa = PBXGroup;
+			children = (
+				D78D9D642A5FE13900B64714 /* Dish+CoreDataClass.swift */,
+				D78D9D652A5FE13900B64714 /* Dish+CoreDataProperties.swift */,
+				D773C7382A5D7F5600EABF61 /* Persistence.swift */,
+				D773C7372A5D7F5600EABF61 /* FetchedObjects.swift */,
+				D773C73F2A5D864500EABF61 /* ExampleDatabase.xcdatamodeld */,
+			);
+			path = CoreDataUtils;
+			sourceTree = "<group>";
+		};
+		D7E036A52A61571C002BC009 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D773C72A2A5D3B7E00EABF61 /* Onboarding.swift */,
+				D773C7352A5D667B00EABF61 /* UserProfile.swift */,
+				D78D9D6C2A5FEB3F00B64714 /* ProductItem.swift */,
+				D773C7312A5D539700EABF61 /* Home.swift */,
+				D773C7332A5D53D200EABF61 /* Menu.swift */,
+				D7E036A22A6156A6002BC009 /* Header.swift */,
+				D7E036A02A61562F002BC009 /* MenuBreakdown.swift */,
+				D7E0369C2A6154C0002BC009 /* HeroSection.swift */,
+				D78D9D622A5EE2B300B64714 /* Details.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D7E036A62A615755002BC009 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D78D9D6E2A5FF91400B64714 /* DishViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D7E036A72A61577F002BC009 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D773C73B2A5D7FBB00EABF61 /* MenuList.swift */,
+				D773C73D2A5D7FC700EABF61 /* MenuItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,20 +264,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				D773C73A2A5D7F5600EABF61 /* Persistence.swift in Sources */,
+				D7E0369B2A615161002BC009 /* KeyboardHandler.swift in Sources */,
 				D773C7342A5D53D200EABF61 /* Menu.swift in Sources */,
 				D78D9D6D2A5FEB3F00B64714 /* ProductItem.swift in Sources */,
 				D78D9D512A5EC87200B64714 /* Font + Extensions.swift in Sources */,
-				D773C72E2A5D3E4800EABF61 /* EmailValidation.swift in Sources */,
 				D773C7362A5D667B00EABF61 /* UserProfile.swift in Sources */,
+				D7E0369D2A6154C0002BC009 /* HeroSection.swift in Sources */,
 				D78D9D672A5FE13900B64714 /* Dish+CoreDataProperties.swift in Sources */,
 				D773C7302A5D424300EABF61 /* Color + Extensions.swift in Sources */,
 				D773C7392A5D7F5600EABF61 /* FetchedObjects.swift in Sources */,
+				D7E036A12A61562F002BC009 /* MenuBreakdown.swift in Sources */,
 				D773C7322A5D539700EABF61 /* Home.swift in Sources */,
 				D773C72B2A5D3B7E00EABF61 /* Onboarding.swift in Sources */,
 				D773C73E2A5D7FC700EABF61 /* MenuItem.swift in Sources */,
 				D78D9D6F2A5FF91400B64714 /* DishViewModel.swift in Sources */,
 				D773C7412A5D864500EABF61 /* ExampleDatabase.xcdatamodeld in Sources */,
+				D7E036A32A6156A6002BC009 /* Header.swift in Sources */,
 				D78D9D632A5EE2B300B64714 /* Details.swift in Sources */,
+				D7E0369F2A615543002BC009 /* Utils.swift in Sources */,
 				D773C73C2A5D7FBB00EABF61 /* MenuList.swift in Sources */,
 				D773C71D2A59D2FE00EABF61 /* Little_LemonApp.swift in Sources */,
 				D78D9D662A5FE13900B64714 /* Dish+CoreDataClass.swift in Sources */,
